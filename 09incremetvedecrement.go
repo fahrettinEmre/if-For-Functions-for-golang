@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(x)
 
 	x++ // burada postfıx sadece değişkenden sonra yazılır. Önce yazılmaz.
-	// ++x yani prefıx ifedesişeklinde kullanılmaz.
+	// ++x yani prefıx ifedesi şeklinde kullanılmaz.
 	fmt.Println(x)
 	//fmt.Println(x++)  yazamam hata verir. Bir satırda iki tane statement bulunmaz.
 

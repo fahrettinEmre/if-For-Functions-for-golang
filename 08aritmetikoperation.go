@@ -13,6 +13,8 @@ func main() {
 	fmt.Printf("%T, %v\n", (x * y), (x * y))
 	fmt.Printf("%T, %v\n", (x / y), (x / y))
 
+	// x:=50 x/=10 dersek sonuc 5 döner.
+
 	z := 5 / 2 // int olduğu için sonuc 2 olarak döner .
 	fmt.Printf("%T, %v\n", z, z)
 
